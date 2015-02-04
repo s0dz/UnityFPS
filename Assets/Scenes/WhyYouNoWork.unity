@@ -586,6 +586,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 964d4129bade441a18374708ad15f3dd, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c8bdc0420be036c409764bbbc0197f64, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 964d4129bade441a18374708ad15f3dd, type: 3}
   m_RootGameObject: {fileID: 2133518784}
@@ -816,19 +820,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400078, guid: 8a59c0a5d8104441e93e104a1b21b2e2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: .0092281159
+      value: .00922811683
       objectReference: {fileID: 0}
     - target: {fileID: 400078, guid: 8a59c0a5d8104441e93e104a1b21b2e2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: .991738677
+      value: .991738737
       objectReference: {fileID: 0}
     - target: {fileID: 400078, guid: 8a59c0a5d8104441e93e104a1b21b2e2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -.0253563114
+      value: -.0253563132
       objectReference: {fileID: 0}
     - target: {fileID: 400078, guid: 8a59c0a5d8104441e93e104a1b21b2e2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -.125404358
+      value: -.125404373
       objectReference: {fileID: 0}
     - target: {fileID: 400078, guid: 8a59c0a5d8104441e93e104a1b21b2e2, type: 3}
       propertyPath: m_RootOrder
@@ -4766,7 +4770,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 2133518785}
   - 95: {fileID: 2133518786}
-  - 114: {fileID: 2133518788}
   - 114: {fileID: 2133518787}
   m_Layer: 0
   m_Name: 1FPS_HAND
@@ -4800,31 +4803,13 @@ Animator:
   m_GameObject: {fileID: 2133518784}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 964d4129bade441a18374708ad15f3dd, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c8bdc0420be036c409764bbbc0197f64, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &2133518787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2133518784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd5af6643d87b473eb4a42e4d10d477d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveAmount: 1
-  MoveSpeed: 2
-  GUN: {fileID: 2133518784}
-  MoveOnX: 0
-  MoveOnY: 0
-  DefaultPos: {x: 0, y: 0, z: 0}
-  NewGunPos: {x: 0, y: 0, z: 0}
---- !u!114 &2133518788
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
