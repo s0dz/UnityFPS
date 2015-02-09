@@ -2688,6 +2688,7 @@ GameObject:
   - 92: {fileID: 1027723983}
   - 81: {fileID: 1027723982}
   - 95: {fileID: 1027723986}
+  - 111: {fileID: 1027723987}
   m_Layer: 11
   m_Name: GunCamera
   m_TagString: Untagged
@@ -2776,6 +2777,20 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1027723987
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1027723980}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5eb1a3bf36628c048a87402dc80fb9e2, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1029968771
 GameObject:
   m_ObjectHideFlags: 0
